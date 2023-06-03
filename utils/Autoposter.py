@@ -145,8 +145,8 @@ class Autoposter:
 
 # test code
 if __name__ == "__main__":
-    username = "sivaraj14481@gmail.com"
-    password = "v4Lkd9cYuJ/y7F5"
+    username = ""
+    password = ""
     autoposter = Autoposter(username, password)
     autoposter.start()
     autoposter.createPin(
