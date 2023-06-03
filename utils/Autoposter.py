@@ -140,6 +140,7 @@ class Autoposter:
         pinPublishTag = self.driver.find_element(By.XPATH, publish_button)
         print(pinPublishTag.get_attribute('class'))
         pinPublishTag.click()
+        time.sleep(10)
 
 
 # test code
